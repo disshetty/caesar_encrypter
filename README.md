@@ -20,6 +20,7 @@ def caesar_encrypt(realText, step):
 			newLetter = lowercase[crypting]
 			outText.append(newLetter)
 	return outText
-#Input the output to be encoded and desired shift value : 
-encode = caesar_encrypt('ILOVEYOU', 3)
-print('Encoded output-',encode)
+#Input the message to be decoded and the desired shift value(with negative sign) :
+
+decode = caesar_encrypt('loryhbrx',-3)
+print('Decoded output - ', decode)
